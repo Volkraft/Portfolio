@@ -2,6 +2,10 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="./css/main.css">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+    />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -84,13 +88,20 @@
                         <p class="subtitle">Lorem Ipsum is simply dummy text of the printing</p>
                     </div>
                     <div class="my-project__wrapper-cards">
-                        <div class="my-project__card">
-                            <div class="my-project__info">
-                                <a class="card-link" href="https://volkraft.github.io/Online-school/">Смотреть</a>
+                        <div class="my-project__wrapper-card">
+                            <div class="my-project__card">
+                                <div class="my-project__info">
+                                    <a class="card-link" href="https://volkraft.github.io/Online-school/">Смотреть</a>
+                                </div>
+                                <div class="my-project__card-img">
+                                    <img src="./img/Online-School.png" alt="">
+                                </div>
                             </div>
-                            <div class="my-project__card-img">
-                                <img src="./img/site-card.jpg" alt="">
-                            </div>
+                            <a class="my-project__title" data-fancybox="gallery" href="./img/Frame 1.jpg">
+                                <span>
+                                    Al-rushd <br>independent online school
+                                </span>
+                            </a>
                         </div>
                         <div class="my-project__card"><img src="./img/icon-card.jpg" alt=""></div>
                         <div class="my-project__card"><img src="./img/site-card.jpg" alt=""></div>
@@ -201,6 +212,7 @@
     </div>
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="./js/libs/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
     <script src="./js/request.js"></script>
     <script src="./js/main.js"></script>
 </body>

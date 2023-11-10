@@ -17,7 +17,7 @@
     top: 0;
     left: 0;
     background-color: #fff;
-    z-index: 9999;
+    z-index: 10;
 }
 .header__row{
     display: flex;
@@ -218,11 +218,15 @@
 .my-project__wrapper-cards>*{
     flex-shrink: 0;
 }
+.my-project__wrapper-card{
+    max-width: 246px;
+}
 .my-project__card {
     position: relative;
     border-radius: 10px;
     overflow: hidden;
     width: 246px;
+    margin-bottom: 15px;
 }
 .my-project__info{
     position: absolute;
@@ -236,11 +240,22 @@
     background-color: rgba(255, 221, 85, 0.75);
     transform: translateY(-100%);
     transition: transform 500ms;
-    
 }
-.my-project__card:hover .my-project__info{
+.my-project__title{
+    color:  #0E0578;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 500ms;  
+    cursor: pointer;
+}
+
+.my-project__wrapper-card:hover .my-project__info {
     transform: translateY(0);
-    transition: transform 500ms;
+    transition: transform 500ms;   
+}
+.my-project__wrapper-card:hover .my-project__title{
+    color: rgb(175, 84, 84);
+    transition: 500ms;   
 }
 .card-link{
     display: block;
@@ -256,6 +271,7 @@
     font-size: 17px;    
     cursor: pointer;
     font-family: 'Poppins', sans-serif;
+    
 }
 .card-link:hover{
     background-color: rgb(162, 92, 92) ;

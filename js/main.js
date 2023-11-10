@@ -34,3 +34,8 @@ burger.addEventListener(`click`, function(e){
     headerNavigation.classList.toggle(`active`);
     overlay.classList.toggle(`active`);
 })
+// Fancy
+
+Fancybox.bind("[data-fancybox]", {
+    // Your custom options
+});
