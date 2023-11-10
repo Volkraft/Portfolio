@@ -49,6 +49,7 @@
 .header__navigation ul li:not(:last-child){
     margin-right: 75px;
 }
+
 /* --------сектионш превью */
 .preview {
     padding-top: 214px;
@@ -217,9 +218,6 @@
 }
 .my-project__wrapper-cards>*{
     flex-shrink: 0;
-}
-.my-project__wrapper-card{
-    max-width: 246px;
 }
 .my-project__card {
     position: relative;
@@ -953,6 +951,9 @@
     }
     .my-project__card{
         width: 100%;
+    }
+    .my-project__wrapper-card{
+        max-width: 290px;
     }
     /* Контакт ми */
     .contact-me{
