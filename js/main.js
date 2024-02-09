@@ -1,14 +1,4 @@
-// Сабскрибе
-const buttonSubscribe = document.querySelector(`.button-subscribe`);
-const emailSubscribe = document.querySelector(`.email-subscribe`);
 
-buttonSubscribe.addEventListener(`click`, function(e){
-    this.classList.toggle('active')
-    if(!emailSubscribe.classList.contains('active')){
-        e.preventDefault()
-    emailSubscribe.classList.toggle('active')
-    }
-})
 
 // Скрол
 const anchors = document.querySelectorAll(`a[href*="#"]`);
