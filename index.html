@@ -29,13 +29,13 @@
             <div class="header__menu">
                 <div class="container">
                     <div class="header__row">
-                        <div class="logo">UniDesign</div>
+                        <div class="logo" data-anim="headerDesktop">UniDesign</div>
                             <nav class="header__navigation">
                                 <ul>
-                                    <li><a href="#AboutMe">About me</a></li>
-                                    <li><a href="#Projects">Projects</a></li>
-                                    <li><a href="#Contacts">Contacts</a></li>
-                                    <li><a href="#Hireme">Hire me</a></li>
+                                    <li data-anim="headerDesktop"><a href="#Projects">Projects</a></li>
+                                    <li data-anim="headerDesktop"><a href="#Contacts">Contacts</a></li>
+                                    <li data-anim="headerDesktop"><a href="#Hireme">Hire me</a></li>
+                                    <li data-anim="headerDesktop"><a href="#AboutMe">About me</a></li>
                                 </ul>
                             </nav>
                     </div>
@@ -46,16 +46,16 @@
             <div class="container">
                 <div class="preview__row">
                     <div class="preview__info">
-                        <p class="preview__welcome">Welcome To My PortFolio</p>
-                        <p class="preview__title">Hi , I am Denis <br>Frontend <span>Developer</span></p>
-                        <div class="preview__description"><p>Your project deserves advanced solutions — let's bring your ideas to life with the help of my professional skills.</p>
+                        <p class="preview__welcome" data-anim="preview">Welcome To My PortFolio</p>
+                        <p class="preview__title" data-anim="preview">Hi , I am Denis <br>Frontend <span>Developer</span></p>
+                        <div class="preview__description" data-anim="preview"><p>Your project deserves advanced solutions — let's bring your ideas to life with the help of my professional skills.</p>
                         </div>
-                            <div class="wrapper-button">
+                            <div class="wrapper-button" data-anim="preview">
                                     <a href="#Hireme" class="button">Hire Me</a>
                                     <a href="#Projects" class="button button--light">My Project</a>
                             </div>
                     </div>
-                    <div class="preview__avatar">
+                    <div class="preview__avatar" data-anim="preview">
                         <img src="./img/imgonline-com-ua-Resize-hV91pwBhYGP.jpg" alt="avatar">
                     </div>
                 </div>
@@ -180,7 +180,9 @@
     </div>
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="./js/libs/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script src="./js/animation.js"></script>
     <script src="./js/request.js"></script>
     <script src="./js/main.js"></script>
 </body>
