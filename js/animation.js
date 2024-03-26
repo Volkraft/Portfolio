@@ -85,19 +85,19 @@ previewItems.forEach(item =>{
 // })
 
 
-gsap.from('.my-project__wrapper-card',{
-    stagger:0.3,
-    opacity:0,
-    y:400,
-    scrollTrigger:{
-        // markers:true,
-        trigger: '.my-project',
-        start: 'top 60%',
-        end:'20% 50%',
-        scrub:1.5,
-        toggleActions: 'play none none reverse',
-    }
-})
+// gsap.from('.my-project__wrapper-card',{
+//     stagger:0.3,
+//     opacity:0,
+//     y:400,
+//     scrollTrigger:{
+//         // markers:true,
+//         trigger: '.my-project',
+//         start: 'top 60%',
+//         end:'20% 50%',
+//         scrub:1.5,
+//         toggleActions: 'play none none reverse',
+//     }
+// })
 
 
 
